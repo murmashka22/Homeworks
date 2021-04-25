@@ -1,0 +1,68 @@
+/*------CSS общий для всех кружков------*/
+.circle{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    font-family: 'Karantina', cursive;
+    font-size: 28px;
+}
+/*--------------------------------------*/
+
+
+/*CSS для каждого кружка отдельно (цвет, обводка)*/
+.circle4{
+    background-color: #EC5AA3;
+    border: 5px solid #5F1A37;
+    color: #5F1A37;
+}
+
+.circle5{
+    background-color: yellow;
+    border: 5px solid orange;
+    color: orange;
+}
+/*--------------------------------------*/
+
+
+/*------4 задание------*/
+.container4, .container5{
+    justify-content: space-around;
+    display: grid;
+    flex-wrap: nowrap;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, 1fr 1fr 1fr 1fr 1fr);
+}
+/*--------------------------------------*/
+
+
+/*------5 задание------*/
+@media all and (max-width: 1000px) and (min-width: 500px){
+    .circle5{
+        background-color: greenyellow;
+        border: 5px solid green;
+        color: green;
+    }
+    .container5{
+        grid-template-rows: 2fr;
+        grid-template-columns: repeat(2, 1fr 1fr 1fr 1fr 1fr);
+    }
+}
+
+@media all and (max-width: 500px){
+    .circle5{
+        background-color: red;
+        border: 5px solid darkred;
+        color: darkred;
+    }
+    .container5{
+        grid-template-rows: 4fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+/*--------------------------------------*/

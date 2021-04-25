@@ -1,0 +1,47 @@
+/*------CSS общий для всех кружков------*/
+.circle{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    font-family: 'Karantina', cursive;
+    font-size: 28px;
+}
+/*--------------------------------------*/
+
+
+/*CSS для каждого кружка отдельно (цвет, обводка)*/
+.circle2{
+    background-color: blue;
+    border: 5px solid darkblue;
+    color: darkblue;
+}
+
+.circle3{
+    background-color: coral;
+    border: 5px solid chocolate;
+    color: chocolate;
+}
+/*--------------------------------------*/
+
+
+/*------3 задание------*/
+.container3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.circle3{
+    min-width: 50px;
+    max-width: 50px;
+    max-height: 50px;
+}
+/*--------------------------------------*/
+
+

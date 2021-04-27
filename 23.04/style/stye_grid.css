@@ -66,3 +66,17 @@
     }
 }
 /*--------------------------------------*/
+
+.circle6{
+    background-color: grey;
+    border: 5px solid black;
+    color: black;
+}
+
+.container6{
+    justify-content: space-around;
+    display: grid;
+    flex-wrap: nowrap;
+    grid-template-rows: 2fr;
+    grid-template-columns: repeat(2, 1fr 1fr 1fr 1fr 1fr);
+}

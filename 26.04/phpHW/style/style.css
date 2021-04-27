@@ -1,0 +1,7 @@
+.HW{
+    display: flex;
+    justify-content: center;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}

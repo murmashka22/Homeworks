@@ -36,4 +36,15 @@ echo $difference->y.' лет, <br>'
     .$difference->m.' месяцев, <br>'
     .$difference->d.' дней <br>';
 
+
+
+$ARR1=array('Россия'=>'Москва','Англия'=>'Лондон');
+$countries=array_keys($ARR1);
+$city=array_values($ARR1);
+print_r($ARR1);
+$NEWARRAY=array();
+$NEWARRAY["$countries[1]"]=$city[1];
+$NEWARRAY["$countries[0]"]=$city[0];
+echo "<br><br><br>";
+print_r($NEWARRAY);
 ?>

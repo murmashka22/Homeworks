@@ -1,0 +1,7 @@
+To: hello@example.com
+Subject: Ваши данные
+X-PHP-Originating-Script: 0:index.php
+From: hello1@example.com
+
+Ваш логин - log2
+Ваш комментарий -  4
